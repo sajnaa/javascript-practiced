@@ -36,8 +36,6 @@
 
 // function removeDuplicates(arr) {
 //   return arr.filter((item, index) => {
-//     console.log("  arr.indexOf(item)", arr.indexOf(item));
-//     console.log("index", index);
 //     return arr.indexOf(item) === index;
 //   });
 // }

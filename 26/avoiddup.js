@@ -39,14 +39,11 @@
 //   return newArr;
 // }
 // [1, 2, 3, [3, 4, 5]];
+
+//common number
 // console.log(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]));
 // function diffArray(arr1, arr2) {
-//   //   const newArr = arr1
-//   //     .concat(arr2)
-//   //     .filter((n) => arr1.includes(n) && arr2.includes(n));
-//   //   console.log(newArr);
-//   //   const newArr = arr1.filter((n) => arr2.includes(n));
-//   const newArr = arr1.filter((n, index) => arr1.indexOf(n) === index);
+//     const newArr = arr1.filter((n) => arr2.includes(n));
 //   return newArr;
 // }
 // function regularfun() {
@@ -114,6 +111,6 @@
 
 // console.log(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]));
 
-let text = [1, 2, 3, 4, 5];
-let result = text.includes(59);
-console.log(result);
+// let text = [1, 2, 3, 4, 5];
+// let result = text.includes(59);
+// console.log(result);
