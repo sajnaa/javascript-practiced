@@ -33,11 +33,11 @@
 //     [1000, 1001, 857, 1],
 //   ])
 // );
-let ar1 = [1, 2, 3, 10, 5, 3, 14];
-let ar2 = [-1, 4, 5, 6, 14];
+// let ar1 = [1, 2, 3, 10, 5, 3, 14];
+// let ar2 = [-1, 4, 5, 6, 14];
 
-//common value
-const result = ar1.filter((a) => ar2.includes(a));
+// //common value
+// const result = ar1.filter((a) => ar2.includes(a));
 
 //two array unique element and avoid duplicat and sort
 // function diffArray(arr1, arr2) {
@@ -57,10 +57,45 @@ const result = ar1.filter((a) => ar2.includes(a));
 var a = 10;
 var b = "10";
 
-let str = "the cartoon was nice";
+//word count
+// let str = "the cartoon was nice";
 
-function aa(word) {
-  const result1 = word.trim().split("").length;
-  return result1;
-}
-console.log(aa(str));
+// function aa(word) {
+//   const result1 = word.trim().split("").length;
+//   return result1;
+// }
+// console.log(aa(str));
+
+// let employee = [
+//   {
+//     name: "sudha",
+//     age: 30,
+//     salary: 200000,
+//   },
+//   {
+//     name: "saha",
+//     age: 40,
+//     salary: 150000,
+//   },
+//   {
+//     name: "samee",
+//     age: 50,
+//     salary: 300000,
+//   },
+//   {
+//     name: "abdu",
+//     age: 60,
+//     salary: 400000,
+//   },
+//   {
+//     name: "reka",
+//     age: 70,
+//     salary: 250000,
+//   },
+// ];
+// let newArr = [];
+// employee.forEach((arr) => {
+//   newArr.push(arr.salary);
+// });
+// const result = newArr.reduce((a, b) => a + b);
+// console.log(result);
